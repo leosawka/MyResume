@@ -1,0 +1,81 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Editor Directories and Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build Output
+dist/
+build/
+out/
+
+# Test Coverage
+coverage/
+*.lcov
+
+# Static Files
+public/*.tmp
+*.tmp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+*.~lock.*
+*.swp
+*.bak
+*.tmp
+
+# IDE-specific files
+*.iml
+*.ipr
+*.iws
+*.vscode/settings.json
+*.vscode/tasks.json
+*.vscode/launch.json
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Typescript specific
+*.tsbuildinfo
+
+# Vite-specific
+.vite
+.vite/deps
+
+# Logs
+logs
+*.log
+yarn-error.log
+
+# Build artifacts
+dist/
+build/
+
+# Temporary Files
+*.tmp
+~$*
+
+# Personal Configs
+*.env.local
+*.env.development
+*.env.production
