@@ -3,7 +3,7 @@ import { useTranslation } from "../../hooks/useTranslation";
 import DOMPurify from "dompurify";
 
 export default function Contact() {
-  const { t } = useTranslation();
+/*   const { t } = useTranslation();
   const [isSent, setIsSent] = useState(false);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -39,7 +39,7 @@ export default function Contact() {
       });
 
     form.reset();
-  };
+  }; */
 
   return (
     <section id="contact" className="p-8">
