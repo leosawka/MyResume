@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-4 bg-header-background">
       <nav className="bg-transparent flex items-center space-x-4">
-        <img src="/LS.svg" alt="Logo" className="w-10 h-10"/>
+        <img src="../../assets/LS.svg" alt="Logo" className="w-10 h-10"/>
         <h1 className="text-2xl font-bold text-accent-gold">{t("header.logo")}</h1>
       </nav>
       <nav className="bg-transparent">
