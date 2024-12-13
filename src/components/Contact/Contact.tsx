@@ -1,6 +1,6 @@
-import { useState } from "react";
+/* import { useState } from "react";
 import { useTranslation } from "../../hooks/useTranslation";
-import DOMPurify from "dompurify";
+import DOMPurify from "dompurify"; */
 
 export default function Contact() {
 /*   const { t } = useTranslation();
