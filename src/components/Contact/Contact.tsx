@@ -43,7 +43,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="p-8">
-      <div
+      {/* <div
         className={`relative w-full h-96 transition-transform duration-700`}
         style={{
           transformStyle: "preserve-3d",
@@ -114,7 +114,13 @@ export default function Contact() {
         >
           <p>{t("contact.successMessage") || "Message sent successfully!"}</p>
         </div>
-      </div>
+      </div> */}
+      <h2 className="text-3xl font-bold mb-4 dark:text-white">Phone</h2>
+      <p className="text-lg dark:text-gray-500">+54 351 650 2117</p>
+      <h2 className="text-3xl font-bold mb-4 dark:text-white">email</h2>
+      <p className="text-lg dark:text-gray-500">leonardo.sawka@gmail.com</p>
+      <h2 className="text-3xl font-bold mb-4 dark:text-white">Location</h2>
+      <p className="text-lg dark:text-gray-500">Córdoba City, Córdoba, Argentina</p>
     </section>
   );
 }
