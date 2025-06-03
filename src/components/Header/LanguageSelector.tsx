@@ -3,8 +3,8 @@ import { useAppDispatch, useAppSelector } from "../../sotre/hooks";
 import { setLanguage } from "../../sotre/languageSlice";
 
 const languages = [
-  { code: "en", label: "English", flag: "../../../public/English_language.svg" },
-  { code: "es", label: "Español", flag: "../../../public/Spanish_language.svg" },
+  { code: "en", label: "English", flag: "/English_language.svg" },
+  { code: "es", label: "Español", flag: "/Spanish_language.svg" },
 ];
 
 function LanguageSelector() {
