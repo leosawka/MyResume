@@ -10,7 +10,7 @@ export default function About() {
       <div className="flex items-center">
         <TiltEffect className="w-full h-120 rounded-full mt-10 ml-20 mb-4">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQHZT1Nq5ncR5Q/profile-displayphoto-shrink_800_800/B4DZOceIYUHgAc-/0/1733496965288?e=1739404800&v=beta&t=OoNEs89VSBcBXz-a5KK_OfL_iv2isW4GXGNtNs25eW4"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQHZT1Nq5ncR5Q/profile-displayphoto-shrink_800_800/B4DZOceIYUHgAc-/0/1733496965288?e=1754524800&v=beta&t=z47uoJgFePB3iqxejdndoEnvSzsq130x8PRoajgYxZM"
             alt="profile"
             className="w-full h-full object-cover transition-transform duration-200"
           />
