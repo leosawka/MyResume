@@ -12,12 +12,12 @@ export default function Projects() {
 
   return (
     <section id="projects" className="p-8 rounded-xl dark:rounded-xl bg-white dark:bg-secondary">
-      <h2 className="text-3xl font-bold mb-4 dark:text-white">{DOMPurify.sanitize(t("projects.title"))}</h2>
+      <h2 className="text-3xl font-bold mb-4 text-primary dark:text-white">{DOMPurify.sanitize(t("projects.title"))}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project, index) => (
           <div key={index} className="p-4 border border-accent-gold dark:border-accent-silver rounded shadow hover:shadow-lg dark:shadow-lg dark:hover:shadow-gray-700 dark:transition-shadow dark:duration-700">
-            <h3 className="text-xl font-bold dark:text-gray-100">{project.name}</h3>
-            <p className="dark:text-gray-500">{project.description}</p>
+            <h3 className="text-xl font-bold text-primary dark:text-gray-100">{project.name}</h3>
+            <p className=" text-secondary dark:text-gray-500">{project.description}</p>
             <a href={project.link} className="text-accent-gold hover:underline">{DOMPurify.sanitize(t("projects.description"))}</a>
           </div>
         ))}

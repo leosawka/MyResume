@@ -51,7 +51,7 @@ export default function Contact() {
         }}
       >
         <div
-          className="absolute w-full h-full bg-white dark:bg-secondary rounded-lg p-8"
+          className="absolute w-full h-full bg-white text-primary dark:bg-secondary rounded-lg p-8"
           style={{
             backfaceVisibility: "hidden",
           }}

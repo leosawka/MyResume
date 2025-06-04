@@ -4,7 +4,7 @@ export default function AditionalInfo() {
   const { t } = useTranslation();
 
   return (
-    <section id="info" className="p-8 bg-background dark:bg-primary dark:text-white">
+    <section id="info" className="p-8 bg-background text-primary dark:bg-primary dark:text-white">
       <h3 className="text-l">
         {t("aditionalInfo.firstInfo")}
         <div>
@@ -18,7 +18,7 @@ export default function AditionalInfo() {
           <span style={{fontFamily: "Roboto"}} className="bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300">CSS</span>
         </div>
       </h3>
-      <p className="text-xs text-right">Copyright (c) 2024 Jairo Leonardo Olivera Sawka</p>
+      <p className="text-xs text-right">Copyright (c) 2025 Jairo Leonardo Olivera Sawka</p>
     </section>
   );
 }
